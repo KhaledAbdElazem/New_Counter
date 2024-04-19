@@ -1,0 +1,12 @@
+.counters {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  color: rgb(177, 35, 94);
+  font-family: Arial, Helvetica, sans-serif;
+}
+Counter {
+  margin-bottom: 10px;
+}
