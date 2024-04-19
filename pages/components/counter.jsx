@@ -5,8 +5,8 @@ function Counter(props) {
   const { counterNum } = props;
   const [counter, setCounter] = useState(0);
 
-  const inc = () => setCounter(counter + 1);
-  const dec = () => setCounter(counter - 1);
+  const inc = () => setCounter((prevCount) => prevCount + 1);
+  const dec = () => setCounter((prevCount) => prevCount - 1);
 
   return (
     <div className={Style.counter}>
