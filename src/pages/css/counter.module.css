@@ -1,0 +1,26 @@
+.counter {
+  display: flex;
+  gap: 2rem;
+  background-color: #beda90a6;
+  border-radius: 50px;
+  border: 1px solid rgb(86, 95, 95);
+  width: 330px;
+  padding: 20px;
+  color: #be2d2d;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+button {
+  border-radius: 100px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background-color: #f0e4e6;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 18px;
+}
+button:hover {
+  transform: scale(1.1);
+}
